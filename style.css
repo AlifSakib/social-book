@@ -7,3 +7,30 @@
 body {
   background-color: #efefef;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1876f2;
+  padding: 5px 5%;
+}
+.logo {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-left ul li img {
+  width: 28px;
+  margin: 0 15px;
+}
